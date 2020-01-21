@@ -1,7 +1,7 @@
 package pack2;
 import java.util.ArrayList;
 
-import new1.*;
+
 
 public class Program 
 {

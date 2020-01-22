@@ -18,6 +18,7 @@ public Mobile(String brand, int price, int rAM, int storage, int camera) {
 	this.RAM = rAM;
 	this.Storage = storage;
 	Camera = camera;
+	
 }
  
  

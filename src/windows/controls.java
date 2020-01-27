@@ -13,6 +13,8 @@ import javax.swing.JButton;
 import java.awt.Font;
 import javax.swing.ImageIcon;
 import javax.swing.JPasswordField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 
 public class controls {
 
@@ -95,5 +97,13 @@ public class controls {
 		btnNewButton.setBackground(Color.BLUE);
 		btnNewButton.setBounds(420, 34, 64, 20);
 		panel.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnNewButton_1.setBounds(225, 219, 89, 23);
+		frame.getContentPane().add(btnNewButton_1);
 	}
 }
